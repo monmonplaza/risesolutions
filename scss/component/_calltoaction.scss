@@ -1,0 +1,34 @@
+.cta {
+    background: linear-gradient(45deg, #DB9531, #D8722C );
+    padding: 4rem 0;
+    color: $light-color;
+    overflow: hidden;
+    position: relative;
+    .dot {
+        position: absolute;
+    }
+
+    .dot_wht-a {
+        top: 7rem;
+        left: 0rem;
+        opacity: .2;
+    }
+
+    .dot_wht-b {
+        bottom: 2rem;
+        right: -0rem;
+        opacity: .5;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            align-self: center;
+        }
+
+        p {
+            max-width: 100rem;
+        }
+    }
+}

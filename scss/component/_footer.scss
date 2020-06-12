@@ -1,0 +1,33 @@
+.footer {
+    padding: 6rem 0;
+    font-size: 1.4rem;
+    ul {
+        list-style: none;
+        
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
+
+    .company-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        li {
+            flex: 0 0 50%;
+        }
+    }
+
+    .socmed {
+        display: flex;
+        li {
+            margin-right: 2rem;
+            a {
+                font-size: 2.5rem;
+                color: $primary-color;
+            }
+        }
+    }
+}

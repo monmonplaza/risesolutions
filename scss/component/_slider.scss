@@ -1,0 +1,116 @@
+.banner__slider {
+   // flex-basis: 0 0 50%;
+    .slider__item {
+        position: relative;
+        img {
+            width: 100%;
+             object-fit: cover;
+             height: auto;
+             object-position: center center;
+        }
+        &__content {
+            position: absolute;
+            right: 0;
+            top: calc(100vh - 18rem);
+            padding: 1.5rem;
+            background-color: rgba($light-color, .9);
+            width: 65%;
+            min-height: 18rem;
+            h3 {
+                color: $primary-color;
+                text-transform: uppercase;
+            }
+    }
+}
+}
+
+
+
+.slider__wrapper {
+    position: relative;
+    //height: 100%;
+    .slick-arrow {
+         position: absolute;
+         z-index: 2;
+         width: 5rem;
+         height: 5rem;
+         top: calc(100vh - 5rem);
+         color: $light-color;
+         background-color: $primary-color;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 3rem;
+         cursor: pointer;
+    }
+    .slick-prev {
+        left: 5.5rem;
+        
+    }
+
+    .slick-next {
+        left: 0rem;    
+    }
+}
+
+
+ 
+
+.client__slider {
+    margin: 0 8rem;
+    &__item {
+        text-align: center;
+    }
+    img {
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+    }
+    .slick-arrow {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 3rem;    
+    }
+
+    .slick-prev {
+        left: 0rem;
+        
+    }
+
+    .slick-next {
+        right: 0rem;    
+    }
+}
+
+
+
+
+
+.testimonial__slider {
+    position: relative;
+    .slick-arrow {
+        position: absolute;
+        z-index: 5;
+        font-size: 3rem;
+        width: 5rem;    
+        height: 5rem;
+        background-color: $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $light-color;
+
+    }
+
+    .slick-prev {
+        bottom: 0rem;
+        right: 6rem;
+    }
+
+    .slick-next {
+        bottom: 0rem;
+        right: 0rem;    
+    }
+}

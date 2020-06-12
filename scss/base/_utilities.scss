@@ -1,0 +1,51 @@
+.bg {
+    &--primary {
+        background-color: $primary-color;
+        color: $light-color;
+    }
+    &--light {
+        background-color: $light-color;
+    }
+}
+
+.text {
+    &--primary {
+        color: $primary-color;
+    }
+
+    &--light {
+        color: $light-color!important;
+    }
+    &--bold {
+        font-weight: bold;
+    }
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.4rem 2rem;
+    border: 1px solid;
+    margin-right:2rem;
+    min-width: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 155rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section-header {
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+.text {
+    &--center {
+        text-align: center;
+    }
+}
